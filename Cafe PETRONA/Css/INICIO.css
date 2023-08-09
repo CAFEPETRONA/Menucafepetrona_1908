@@ -1,0 +1,23 @@
+.contenedor-imagen {
+  max-width: 100%;
+  height: auto;
+}
+.contenedor-imagen img {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+a{
+text-decoration: none;
+}
+
+.imagen{
+float: left;
+top: 20px;
+margin-right:30px;
+width:100px;
+height: auto;
+border-radius:30px;
+padding: 15px;
+}

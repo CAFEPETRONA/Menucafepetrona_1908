@@ -1,0 +1,57 @@
+.menu{
+
+list-style: none;
+
+padding: 0;
+
+text-align:center; /*Alineacion de texto*/
+
+margin: auto;
+background: rgb(103,231,226);
+background: rgb(101,182,101);
+background: radial-gradient(circle, rgba(101,182,101,1) 0%, rgba(63,83,29,1) 100%);
+border-radius: .5ex; /*re*/
+}
+
+.menu li a{
+
+text-emphasis: none;
+
+color: black;
+
+padding : 20px;/*re*/
+/*El padding en CSS es una propiedad o relleno 
+que se crea alrededor del contenido de un elemento dentro de 
+los bordes definidos y sirve para dar formato y diseño a una página web.*/
+
+display: block;
+
+border-radius: 15em;/*re*/
+
+ font-weight: bold; /* Establece la negrita */
+  font-family: "Arial", sans-serif; /* Establece una fuente cuadrada (Arial en este caso) */
+
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+
+}
+
+.menu li a:hover{
+background: rgb(59,133,61);
+background: rgb(95,189,90);
+background: radial-gradient(circle, rgba(95,189,90,1) 0%, rgba(63,83,29,1) 100%);
+}
+.menu-item {
+  color: black; /* Color inicial del texto */
+}
+
+.menu-item:hover {
+  color: black; /* Color del texto al pasar el cursor por encima */
+}
+
+.menu-item.selected {
+  color: white; /* Color del texto cuando está seleccionado */
+}
